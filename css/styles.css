@@ -1,0 +1,153 @@
+p {
+    vertical-align: middle;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #ccc, #333, #ccc); /* Replace these colors with your desired gradient */
+    margin: 2% 0; /* Adjust margin as needed */
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-weight: normal;
+}
+
+p {
+    color: #333;
+}
+
+h1 {
+    font-family: 'sacramaento';
+    margin-top: 0;
+    font-size: 4%; /* Adjust font size as needed */
+    color: #808080;
+    
+}
+
+h2 {
+    font-family: 'montserrat';
+    padding-bottom: 1%; /* Adjust padding as needed */
+    vertical-align: middle;
+    color: #808080;
+}
+
+h3 {
+    font-family: 'montserrat';
+    vertical-align: middle;
+    color: #808080;
+}
+
+.top-container {
+    background-color: #96B6C5;
+    position: relative;
+    padding-top: 4%; /* Adjust padding as needed */
+}
+
+.me {
+    font-family: 'sacramento';
+    width: 1.5%; /* Adjust width as needed */
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 1%; /* Adjust right position as needed */
+    font-size: 250%;
+}
+
+.middle-container {
+    background-color: #ADC4CE;
+    position: relative;
+}
+
+.contact-me {
+    background-color: #EEE0C9;
+    position: relative;
+    padding-top: 1%; /* Adjust padding as needed */
+    padding-bottom: 1.5%;
+}
+
+.bottom-container {
+    background-color: #F1F0E8;
+    position: relative;
+    padding-top: 5%; /* Adjust padding as needed */
+}
+
+.cloud1 {
+    position: absolute;
+    right: 35%;
+    top: 15%; /* Adjust top position as needed */
+}
+
+.cloud2 {
+    position: absolute;
+    bottom: 39%;
+    left: 30%;
+}
+
+.footer-link {
+    padding: 0 1%; /* Adjust padding as needed */
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 0.5%;
+
+}
+
+.task-img {
+    width: 25%;
+    float: right;
+    margin-left: 0.5%;
+}
+
+.profile-img {
+    padding-top: 3%; /* Adjust padding as needed */
+}
+
+.content {
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.skill-2,
+.skill-1 {
+    /* display: flex;
+    align-items: center; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+
+
+.special-hr {
+	border-width: 5px;
+    width: 3%;
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+	margin: 0 auto;
+    /* margin-top: 1.5%;
+    margin-bottom: 1.5%; */
+}
+
+.contact-button {
+    background-color: #96B6C5; /* Match the background color of your top-container */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed for button size */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px; /* Adjust font size as needed */
+    text-decoration: none; /* Remove underline for anchor tag */
+}
+
+.contact-button:hover {
+    background-color: #ADC4CE; /* Change background color on hover */
+}
